@@ -8,6 +8,8 @@ public class UIDirectionControl : MonoBehaviour
     private Quaternion m_RelativeRotation;     
 
 
+    // Para que la rotacion del Slider se quede fija y no gire cuando el tanque gire
+
     private void Start()
     {
         m_RelativeRotation = transform.parent.localRotation;
